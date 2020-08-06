@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins',sans-serif!important;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+.material-icons {
+    font-size: 60px;
+}
+
+.navbar-brand .material-icons {
+    color: #6c63ff;
+}
+
+.welcome {
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+}
+
+.welcome img {
+    height: 30vh;
+}
+
+.welcome .hello {
+    color: #6c63ff;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+
+.about {
+    padding: 20px 0px 20px 0px;
+}
+
+.about .svg {
+    margin-left: 100px;
+}
+
+.about img {
+    height: 30vh;
+}
+
+.about h1 {
+    padding-top: 10px;
+    color: #00b0ff;
+}
+
+.interests {
+    margin-top: 40px;
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+}
+
+.interests img {
+    height: 20vh;
+}
