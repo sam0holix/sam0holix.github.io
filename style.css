@@ -19,3 +19,71 @@ body {
 .navbar-brand .material-icons {
     color: #6c63ff;
 }
+
+.welcome-box {
+    text-align: center;
+    height: 65vh;
+    padding-top: 30px;
+}
+.welcome h1 {
+    color: #6c63ff;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.welcome span {
+    font-size: 30px;
+}
+
+.welcome-svg img {
+    height: 30vh;
+}
+
+.header-about {
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: -25px;
+}
+
+.about-me {
+    background: #3fab87;
+}
+
+.about-me {
+    text-align: center;
+    padding: 10vh;
+}
+.about-me h2 {
+    font-size: 44px;
+    font-weight: 600;
+    color: white;   
+}
+
+.about-me .material-icons,.flex-grid .material-icons {
+    font-size: 6rem;
+}
+.about-me p {
+    margin: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.flex-grid {
+    text-align: center;
+}
+
+.one {
+    padding: 10vh;
+    background: #fdf0ed;
+}
+.two {
+    padding: 10vh;
+    background: #98bfc8;
+
+}
+.row .one h2,.two h2 {
+    font-size: 44px;
+    font-weight: 600;   
+}
+
