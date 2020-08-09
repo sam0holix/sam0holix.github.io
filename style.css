@@ -20,45 +20,169 @@ body {
     color: #6c63ff;
 }
 
-.welcome {
-    padding: 20px 0px 20px 0px;
-    margin: auto;
+.welcome-box {
+    text-align: center;
+    height: 65vh;
+    padding-top: 30px;
+}
+.welcome h1 {
+    color: #6c63ff;
+    font-size: 70px;
+    font-weight: 800;
 }
 
-.welcome img {
+.welcome span {
+    font-size: 30px;
+}
+
+.welcome-svg img {
     height: 30vh;
 }
 
-.welcome .hello {
-    color: #6c63ff;
+.header-about {
+    font-size: 15vh;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: -43px;
+}
+
+.about-me {
+    background: #3fab87;
+}
+.grid-item:hover h2 {
+    animation: onHoverh2 forwards .2s;
+}
+
+.grid-item:hover p {
+    animation: onHoverp forwards .2s;
+}
+
+.grid-item:hover span {
+    animation: onHoverIcon ease .2s;
+}
+
+.about-me {
+    text-align: center;
+    height: 40rem;
+    padding-top: 20vh;
+}
+
+
+.about-me h2 {
     font-size: 44px;
     font-weight: 600;
+    color: white;   
+}
+
+.about-me .material-icons,.flex-grid .material-icons, .current .material-icons, .three .material-icons {
+    font-size: 6rem;
+}
+.about-me p {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.flex-grid {
+    text-align: center;
+}
+
+.one {
+    padding: 20vh;
+    height: 40rem;
+    background: #fdf0ed;
+}
+.two {
+    padding: 20vh;
+    height: 40rem;
+    background: #98bfc8;
+
+}
+.row .one h2,.two h2, .current h2, .three h2 {
+    font-size: 44px;
+    font-weight: 600;   
+}
+
+.two h2, .two p {
+    color: white;
+}
+
+.current {
+    background: #d1e1e0;
+    text-align: center;
+    padding-top: 20vh;
+    height: 40rem;
+}
+
+.current h2 {
+    color: #29545b;
+}
+
+.header-projects {
+    font-size: 15vh;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: -43px;
+}
+
+.projects{
+    text-align: center;
+    height: 40rem;
+    padding-top: 20vh;
+    background: #e8c3b9;
+}
+
+.three {
+    background: #d1e1e0 ;
+    text-align: center;
+    padding-top: 20vh;
+    height: 40rem;
+}
+
+.three h2 {
+    color: #29545b;
+}
+
+.projects-section .projects {
+    background: #e8c3b9;
+}
+
+.projects-section .one {
+    background: #224954;
+}
+
+.projects-section .three {
+    background: #399a74;
+}
+
+@keyframes onHoverh2 {
+    from {
+        transform: translate3d(0px,0px,0px);
+    }
+    to {
+        transform: translate3d(0px,-6px,0px);
+    }
+}
+
+@keyframes onHoverp {
+    from {
+        transform: translate3d(0px,0px,0px);
+    }
+    to {
+        transform: translate3d(0px,8px,0px);
+    }
+}
+
+@keyframes onHoverIcon {
+    from {
+        transform: translate3d(-4px,0px,0px);
+    }
+    to {
+    transform: translate3d(4px,0px,0px);
+    }
 }
 
 
-.about {
-    padding: 20px 0px 20px 0px;
-}
 
-.about .svg {
-    margin-left: 100px;
-}
-
-.about img {
-    height: 30vh;
-}
-
-.about h1 {
-    padding-top: 10px;
-    color: #00b0ff;
-}
-
-.interests {
-    margin-top: 40px;
-    padding: 20px 0px 20px 0px;
-    margin: auto;
-}
-
-.interests img {
-    height: 20vh;
-}
